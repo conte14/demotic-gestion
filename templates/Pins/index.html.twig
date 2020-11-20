@@ -1,0 +1,89 @@
+{%  extends 'base.html.twig' %}
+
+{%  block body %}
+
+             <h3>Services</h3>
+               <form>
+    <div class="form-check">
+       
+        Prevervation  des donnée : &nbsp  &nbsp  &nbsp   Oui  &nbsp  &nbsp   &nbsp  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+       
+        &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp Non  &nbsp  &nbsp  &nbsp &nbsp <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+    
+      </div>
+          <br>
+      <div class="form-check">
+       
+        Installation   GNU/Linux : &nbsp  &nbsp  &nbsp   Oui  &nbsp  &nbsp   &nbsp  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+       
+        &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp Non  &nbsp  &nbsp  &nbsp &nbsp <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+    
+      </div>
+     <br>
+      <div class="form-check">
+       
+        Distribution : &nbsp  &nbsp  &nbsp   Linux Mint Cinnamon  &nbsp  &nbsp   &nbsp  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+       
+        &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  Linux Mint Mate  &nbsp  &nbsp  &nbsp &nbsp <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+        
+
+        &nbsp  &nbsp  &nbsp   Linux Mint Xfce  &nbsp  &nbsp   &nbsp  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+       
+        &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  Utuntu LTS  &nbsp  &nbsp  &nbsp &nbsp <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+
+        <br><br>
+              <!--faire des formulaire pour demotic-->
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Autre</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Ecrivez son nom">
+                
+        </div>
+
+        <div class="form-check">
+       
+            Dual Boot: &nbsp  &nbsp  &nbsp   Oui  &nbsp  &nbsp   &nbsp  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+           
+            &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp Non  &nbsp  &nbsp  &nbsp &nbsp <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+        
+          </div><br>
+          <div class="form-check">
+       
+            Os Privatif à (re)installer : &nbsp  &nbsp  &nbsp   Windows  &nbsp  &nbsp   &nbsp  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+           
+            &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp Mar OS  &nbsp  &nbsp  &nbsp &nbsp <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+        
+          </div><br>
+
+
+
+
+              <!--petite espace-->
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Prix</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Annoncé :                                 €TTC">
+                <input type="text" class="form-control" placeholder="Réel:                                      €TTC">
+              </div>
+
+              <div class="form-group">
+               Notes: <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+              </div>
+              <!--deux-->
+             
+
+              <button type="submit" class="btn btn-primary">envoyer</button>
+
+             
+
+
+
+
+            
+        </form>
+
+
+
+         {% endblock %} 
